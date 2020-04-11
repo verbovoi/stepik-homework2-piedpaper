@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 1219px;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    background: #EEEEEE;
+}
+
+.head {
+    background: #007765;
+    display: inline-flex;
+    width: 1219px;
+    margin-top: 10px;
+}
+
+.menu-site {
+    color: white;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    padding-left: 500px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.logo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 55px;
+}
+
+.main-name {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    color: white; 
+    background-image: url(../img/banner.png);   
+    padding-top: 160px;
+    padding-bottom: 160px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.header-problem{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+    margin-top: 50px;
+}
+
+.text-problem{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+    padding-left: 55px;
+    padding-right: 55px;
+    margin-top: 16px;
+    margin-bottom: 90px;
+}
+
+.paragraf-problem{
+    margin-bottom: 20px;
+}
+
+.second-banner {
+    background-image: url(../img/banner2.png); 
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-top: 125px;
+    padding-bottom: 125px;
+}
