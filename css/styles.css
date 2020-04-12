@@ -91,3 +91,141 @@ body{
     padding-top: 125px;
     padding-bottom: 125px;
 }
+
+/*test*/
+.logo {
+    float: left;
+  }
+  nav {
+    float: right;
+    padding-right: 55px;
+  }
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  nav li {
+    display: inline-block; /*один из способов разместить элементы в строку*/
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+    padding-top: 30px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .container:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 1219px;
+    background: #007765;
+  }
+
+  .span-menu{
+      padding-right: 8px;
+      padding-left: 8px;
+  }
+
+  .header-coin{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    /* identical to box height */
+    text-align: center;
+    color: #007765;
+    padding-top: 48px;
+  }
+
+  .first-coin-description{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    padding-top: 16px;
+    padding-right: 70px;  
+    color: #000000;
+  }
+
+  .image-coin{
+    width: 115px;
+    height: 115px;
+    padding-left: 55px;
+    padding-top: 16px;
+    float: left;
+    margin-right: 50px;
+  }
+
+  .second-coin-description{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+    margin-top: 40px;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-bottom: 90px;
+  }
+
+  .paragraf-coin{
+    margin-top: 55px;
+  }
+
+  .paper-coin-block{
+    background-color: white;
+  }
+
+  .header-team{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #007765;
+    padding-top: 50px;
+    padding-right: 55px;
+    padding-left: 55px;
+  }
+
+  .team-leader{
+    display: inline-flex;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 55px;
+    padding-bottom: 80px;
+  }
+
+  .leader-profile{
+    margin-left: 212px;
+    margin-right: 212px;
+  }
+
+  .leader-name{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+
+    text-align: center;
+    width: 350px;
+    color: #007765;
+  }
